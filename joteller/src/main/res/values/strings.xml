@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Joke Teller</string>
+
+    <string name="meah_sentiment_toast">Sorry for that. Lets try again …</string>
+    <string name="haha_sentiment_toast">Super! Want to hear another one?</string>
+</resources>
