@@ -40,6 +40,7 @@ public class JokeActivity extends AppCompatActivity {
         Intent activityStartupIntent = new Intent(ctx, JokeActivity.class);
 
         activityStartupIntent.putExtra(JOKE_TO_TELL_KEY, joke);
+        activityStartupIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         ctx.startActivity(activityStartupIntent);
     }
 
